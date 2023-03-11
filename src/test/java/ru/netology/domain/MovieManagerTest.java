@@ -15,7 +15,6 @@ public class MovieManagerTest {
         String[] expected = {"Film 1", "Film 2", "Film 3"};
         String[] actual = manager.findAll();
         Assertions.assertArrayEquals(expected, actual);
-
     }
 
     @Test
