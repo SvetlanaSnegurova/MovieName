@@ -1,4 +1,3 @@
-
 package ru.netology.domain;
 
 import org.junit.jupiter.api.Test;
@@ -75,7 +74,6 @@ public class MovieManagerTest {
         manager.add("Film 10");
         manager.add("Film 11");
 
-
         String[] expected = {"Film 11", "Film 10", "Film 9", "Film 8", "Film 7", "Film 6", "Film 5", "Film 4", "Film 3", "Film 2"};
         String[] actual = manager.findLast();
         Assertions.assertArrayEquals(expected, actual);
@@ -84,7 +82,6 @@ public class MovieManagerTest {
     @Test
     public void countMovieUnderLimit() {
         MovieManager manager = new MovieManager();
-
 
         manager.add("Film 1");
         manager.add("Film 2");

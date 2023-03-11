@@ -10,7 +10,6 @@ public class MovieManager {
 
     public MovieManager(int limit) {
         this.limit = limit;
-
     }
 
     public void add(String movie) {
